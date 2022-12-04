@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# Not tracked folder
+not_tracked/*
+# .DS_Store
+.DS_Store
+
 # Distribution / packaging
 .Python
 build/
