@@ -29,7 +29,7 @@ total_summary <- susp_coil_table %>% summarize(Mean=mean(PSI), Median=median(PSI
 lot_summary <- susp_coil_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), 
                                                                              Median=median(PSI),
                                                                              Variance=var(PSI), 
-                                                                             sd(PSI))
+                                                                             SD=sd(PSI))
 
 # Deliverable 3 - Technical Analysis
 
