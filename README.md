@@ -101,3 +101,16 @@ T-test Hypothesis:
 
 
 ## Study Design: MechaCar vs. Competition
+
+In order to compare the performance of the MechaCar vehicles against the performance of vehicles from other manufacturers, we have created a study design for statistical testing (detailed below).
+
+For this study design we will focus on measuring the Combined MPG (Miles per Gallon) metric of the MechaCar and cars of the same type from competing manufacturers. Combined MPG is the weighted average of City and Highway MPG values that is calculated by weighting the City value by 55% and the Highway value by 45% (as defined by the United States Environmental Protection Agency). We will perform statistical testing on this metric for the MechaCar vehicles and competing vehicles, as mentioned.
+
+Our null and alternative hypothesis will be stated as follows.
+
+- H<sub>0</sub> : The observed MechaCar prototypes Combined MPG sample mean __is equal to__ the observed competitors' cars Combined MPG sample mean.
+- H<sub>a</sub> : The observed MechaCar prototypes Combined MPG sample mean __is lesser than__ the observed competitors' cars Combined MPG sample mean.
+
+We will perform a One-Tailed Two-Sample t-Test to find if there is a statistical difference between the distribution means of the two samples of MechaCar Combined MPG and competing cars Combined MPG, where MechaCar Combined MPG mean is less than the competing cars' mean. We will do this to determine if the MechaCar will be more fuel efficient by the Combined MPG metric than the mean of the industry's competitors' cars Combined MPG's, or not. This will allow us to understand how the MechaCar performs in fuel efficency compared to the industry standards across similar vehicle types. This would be useful to understand, in conveying the value of the MechaCar's future performance in the marketplace, as consumers seek more fuel efficient cars in the face of rising fuel costs and increasing regulation to promote environment protection.
+
+The data needed to run this test will include the calculated Combined MPG across the sample of at least 20 MechaCar prototypes, as well as the advertised Combine MPG figures of at least 20 similar industry competitors' cars on the market. After compiling these observations into a dataset, separable by two observed sample distributions ('MechaCar' and 'All Other Manufacturers'), we may proceed with our proposed study design and statistical analysis.
